@@ -15,6 +15,7 @@ const App = () => {
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&lang=${lang}&units=metric`;
     try {
       const {data} = await axios.get(url);
+      console.log(data);
       setWeather(data);
     } catch (error) {
       alert("Veri getirilirken hata oluştu")
