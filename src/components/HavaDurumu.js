@@ -29,7 +29,7 @@ return(
                     <p>{weather.weather[0].description}</p>
                 </div>
                 <div className="location">
-                    <p>{weather.name} - {new Date(weather.dt * 1000).toLocaleDateString()}</p>
+                    <p>{weather.name}</p>
                 </div>
               
             </div>

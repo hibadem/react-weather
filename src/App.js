@@ -27,7 +27,7 @@ const App = () => {
   console.log(longitude,latitude,weather)
   return(
     <div>
-      <h1>Hava Durumu</h1>
+      
       <HavaDurumu weather={weather} />
     
     </div>
